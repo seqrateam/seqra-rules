@@ -6,6 +6,7 @@ rules:
     metadata:
       cwe: CWE-117
       license: MIT
+      shortDescription: Log an untrusted data
     message: Log an untrusted data
     patterns:
       - pattern-either:

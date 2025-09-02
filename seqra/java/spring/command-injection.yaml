@@ -4,6 +4,7 @@ rules:
       - java
     severity: ERROR
     metadata:
+      shortDescription: Command line $BUILDER depends on a user provided $FILEPATH
       cwe: CWE-94
       license: MIT
     message: Command line $BUILDER depends on a user provided $FILEPATH
